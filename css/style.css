@@ -44,16 +44,23 @@ section {
     border: 1px solid black;
 }
 
-.flex-container {
-    display: flex;
-}
-
 .narrow-container {
     width: 60%;
     margin: 0 auto;
     /* debug */
     border: 1px solid black;
     padding: 2rem;
+}
+
+.big-container {
+    width: 100%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+}
+
+.flex-container {
+    display: flex;
 }
 
 
@@ -207,4 +214,17 @@ section {
     /* debug */
     background-color: rgb(28, 111, 255);
     height: 350px;
+}
+
+.part-columns {
+    width: 100%;
+    display: flex;
+}
+
+.part-col {
+    width: calc(100% / 3);
+    /* debug */
+    border: 1px dashed black;
+    min-height: 600px;
+    background-color: pink;
 }
