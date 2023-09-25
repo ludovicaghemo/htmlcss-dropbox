@@ -24,17 +24,31 @@ h1 {
     font-size: 2rem;
 }
 
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 
 /* COMMON */
 
-.container {
-    width: 80%;
+.large-container {
+    width: 70%;
     margin: 0 auto;
+    /* debug */
     border: 1px solid black;
 }
 
 .flex-container {
     display: flex;
+}
+
+.narrow-container {
+    width: 60%;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+    min-height: 900px;
 }
 
 
@@ -114,17 +128,50 @@ h1 {
     display: flex;
 }
 
-.small-column {
+.small-header-column {
     /* debug */
     width: 30%;
-    background-color: #ffc0cb;
+    background-color: yellow;
     min-height: 300px;
 }
 
-.large-column {
-    /* debug */
+.large-header-column {
     width: 70%;
-    background-color: #1e90ff;
+    /* debug */
+    background-color: green;
     min-height: 300px;
 }
 
+.business-plan {
+    padding-top: 2rem;
+}
+
+.invoicing {
+    text-align: left;
+}
+
+.business-columns {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+    /* debug */
+    min-height: 700px;
+    
+}
+
+.business-col {
+    width: calc(100% / 3);
+    /* debug */
+    border: 1px dashed black;
+    min-height: 700px;
+    background-color: pink;
+}
+
+.enterprise {
+    /* debug */
+    margin-top: 2rem;
+    min-height: 300px;
+    border: 1px dashed black;
+    background-color: orangered;
+}
