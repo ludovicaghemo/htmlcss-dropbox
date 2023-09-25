@@ -53,7 +53,6 @@ section {
     margin: 0 auto;
     /* debug */
     border: 1px solid black;
-    min-height: 900px;
     padding: 2rem;
 }
 
@@ -138,7 +137,7 @@ section {
     /* debug */
     width: 30%;
     background-color: yellow;
-    min-height: 300px;
+    min-height: 700px;
     border: 1px dashed black;
 }
 
@@ -146,11 +145,12 @@ section {
     width: 70%;
     /* debug */
     background-color: green;
-    min-height: 300px;
+    min-height: 700px;
     border: 1px dashed black;
 }
 
 .business-plan {
+    /* debug */
     padding-top: 2rem;
 }
 
@@ -183,6 +183,7 @@ section {
     background-color: orangered;
 }
 
+
 .business-drop-columns {
     width: 100%;
     display: flex;
@@ -202,3 +203,8 @@ section {
     background-color: pink;
 }
 
+.users-content {
+    /* debug */
+    background-color: rgb(28, 111, 255);
+    height: 350px;
+}
