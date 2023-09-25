@@ -41,7 +41,7 @@ section {
     width: 70%;
     margin: 0 auto;
     /* debug */
-    border: 1px solid black;
+    border: 1px solid fuchsia;
 }
 
 .narrow-container {
@@ -258,3 +258,37 @@ section {
 .faq-content ul {
     list-style-type: none;
 } 
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-top {
+    /* width: 100%; */
+}
+
+.footer-columns {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    /* debug */
+    min-height: 200px;
+    
+    
+}
+
+.footer-col {
+    width: calc(70% / 5);
+    border: 1px dashed white;
+    min-height: 400px;
+    justify-content: space-between;
+    background-color: #1cf509;
+}
+
+.footer-bottom {
+    /* debug */
+    min-height: 50px;
+}
