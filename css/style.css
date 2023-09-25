@@ -29,6 +29,11 @@ h2 {
     font-size: 1.5rem;
 }
 
+section {
+    /* debug */
+    margin-top: 2rem;
+}
+
 
 /* COMMON */
 
@@ -157,10 +162,9 @@ h2 {
     width: 100%;
     display: flex;
     gap: 2rem;
-    padding-top: 2rem;
     /* debug */
     min-height: 700px;
-    
+    padding-top: 2rem;
 }
 
 .business-col {
@@ -178,3 +182,23 @@ h2 {
     border: 1px dashed black;
     background-color: orangered;
 }
+
+.business-drop-columns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* debug */
+    padding-top: 2rem;
+}
+
+.business-drop-col {
+    width: calc(60% / 2);
+    /* debug */
+    border: 1px dashed black;
+    min-height: 300px;
+    background-color: pink;
+}
+
