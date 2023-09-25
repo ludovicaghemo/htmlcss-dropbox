@@ -49,6 +49,7 @@ h2 {
     /* debug */
     border: 1px solid black;
     min-height: 900px;
+    padding: 2rem;
 }
 
 
@@ -128,18 +129,20 @@ h2 {
     display: flex;
 }
 
-.small-header-column {
+.small-column {
     /* debug */
     width: 30%;
     background-color: yellow;
     min-height: 300px;
+    border: 1px dashed black;
 }
 
-.large-header-column {
+.large-column {
     width: 70%;
     /* debug */
     background-color: green;
     min-height: 300px;
+    border: 1px dashed black;
 }
 
 .business-plan {
