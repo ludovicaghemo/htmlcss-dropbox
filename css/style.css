@@ -19,8 +19,19 @@ a {
     text-align: inherit;
 }
 
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 
 /* COMMON */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
 
 .flex-container {
     display: flex;
@@ -89,3 +100,31 @@ a {
 .login {
     text-align: right;
 } 
+
+.hero-section {
+    background-color: #b4d0e7;
+    width: 100%;
+    /* debug */
+    margin-top: 5rem;
+    min-height: 550px;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.small-column {
+    /* debug */
+    width: 30%;
+    background-color: #ffc0cb;
+    min-height: 300px;
+}
+
+.large-column {
+    /* debug */
+    width: 70%;
+    background-color: #1e90ff;
+    min-height: 300px;
+}
+
