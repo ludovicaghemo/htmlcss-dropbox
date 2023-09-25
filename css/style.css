@@ -247,5 +247,14 @@ section {
     background-color: green;
     height: 200px;
     border: 1px dashed black;
-    
 }
+
+.faq-content {
+    /* debug */
+    background-color: lightcoral;
+    height: 350px;
+}
+
+.faq-content ul {
+    list-style-type: none;
+} 
