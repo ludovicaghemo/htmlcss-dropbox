@@ -228,3 +228,24 @@ section {
     min-height: 600px;
     background-color: pink;
 }
+
+.free-trial {
+    background-color: #b4d0e7;
+}
+
+.small-trial-column {
+    /* debug */
+    width: 30%;
+    background-color: yellow;
+    height: 200px;
+    border: 1px dashed black;
+}
+
+.large-trial-column {
+    width: 70%;
+    /* debug */
+    background-color: green;
+    height: 200px;
+    border: 1px dashed black;
+    
+}
