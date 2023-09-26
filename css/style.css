@@ -371,24 +371,31 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     /* debug */
     min-height: 200px;
-    
-    
 }
 
 .footer-col {
-    width: calc(70% / 5);
-    border: 1px dashed white;
+    width: calc(80% / 5);
+    /* border: 1px dashed white; */
     min-height: 400px;
     justify-content: space-between;
-    background-color: #1cf509;
+    /* background-color: #1cf509; */
+}
+
+.footer-links li {
+    list-style-type: none;
+    color: white;
+    margin-top: 1rem; 
+}
+
+h5 {
+    font-size: 1em;
 }
 
 .footer-bottom {
     /* debug */
-    min-height: 50px;
+    min-height: 20px;
 }
-
 
