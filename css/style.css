@@ -93,7 +93,6 @@ section {
 }
 
 .btn {
-    text-align: right;
     display: inline-block;
     background-color: var(--btn-bg-color);
     color: var(--btn-fnt-color);
@@ -283,6 +282,24 @@ nav {
     padding: 2rem;
 }
 
+.large-column-60 {
+    width: 60%;
+}
+
+.small-column-40 {
+    width: 40%;
+    padding-left: 2rem;
+}
+
+.btn-free {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+}
+    
 
 .business-drop-columns {
     width: 100%;
