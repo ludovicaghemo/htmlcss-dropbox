@@ -321,22 +321,22 @@ nav {
 
 .free-trial {
     background-color: var(--bg-color);
+    padding: 4rem 0;
 }
 
-.small-trial-column {
-    /* debug */
-    width: 30%;
-    background-color: yellow;
-    height: 200px;
-    border: 1px dashed black;
+.trial-h2 {
+    color: #61082b;
+    font-size: 2.5rem;
 }
 
-.large-trial-column {
-    width: 70%;
-    /* debug */
-    background-color: green;
-    height: 200px;
-    border: 1px dashed black;
+.btn-trial {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
 .faq-content {
