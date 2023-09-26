@@ -1,3 +1,9 @@
+/* ROOT */
+:root {
+    --btn-bg-color: #0061ff;
+    --btn-fnt-color: white; 
+}
+
 /* RESET */
 * {
     margin: 0;
@@ -24,8 +30,9 @@ a {
 }
 
 h1 {
-    text-align: center;
-    font-size: 2rem;
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 800;
 }
 
 h2 {
@@ -42,15 +49,16 @@ section {
 /* COMMON */
 
 .large-container {
-    width: 70%;
+    width: 80%;
     max-width: 1100px;
     margin: 0 auto;
     /* debug */
     border: 1px solid fuchsia;
+    padding-top: 4rem;
 }
 
 .narrow-container {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     /* debug */
     border: 1px solid black;
@@ -67,6 +75,19 @@ section {
 .flex-container {
     display: flex;
 }
+
+.row {
+    display: flex;
+}
+
+.btn {
+    text-align: right;
+    display: inline-block;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-fnt-color);
+    padding: 0.5em 1em;
+    font-size: 1rem;
+} 
 
 
 /* HEADER */
@@ -109,42 +130,35 @@ nav {
     gap: 2rem;
 } 
 
-.login {
-    text-align: right;
-    display: inline-block;
-    background-color: #0061ff;
-    color: white;
-    padding: 0.5em 1em;
-    font-size: 1rem;
-} 
-
 .hero-section {
     background-color: #b4d0e7;
     width: 100%;
-    /* debug */
-    margin-top: 5rem;
-    min-height: 550px;
-    border: 1px solid black;
-}
-
-.row {
-    display: flex;
+    padding-top: 4rem;
 }
 
 .small-column {
-    /* debug */
     width: 30%;
-    background-color: yellow;
-    min-height: 700px;
-    border: 1px dashed black;
+}
+
+.small-col-content {
+    padding: 4rem 0 2rem 0;
+    text-align: left;
+}
+
+.cancel {
+    padding: 2rem 0 4rem 0;
+}
+
+.arrow {
+    font-size: 3rem;
 }
 
 .large-column {
     width: 70%;
-    /* debug */
-    background-color: green;
-    min-height: 700px;
-    border: 1px dashed black;
+}
+
+.hover-img {
+    padding-top: 4rem;
 }
 
 .business-plan {
@@ -255,9 +269,9 @@ footer {
     color: white;
 }
 
-.footer-top {
-    /* width: 100%; */
-}
+/* .footer-top {
+    width: 100%;
+} */
 
 .footer-columns {
     width: 100%;
