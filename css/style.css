@@ -339,15 +339,23 @@ nav {
     margin-top: 1rem;
 }
 
-.faq-content {
-    /* debug */
-    background-color: lightcoral;
-    height: 350px;
-}
 
 .faq-content ul {
     list-style-type: none;
 } 
+
+
+.question {
+    display: block;
+}
+
+.answer {
+    display: none;
+}
+
+.question:hover .answer {
+    display: block;
+}
 
 footer {
     background-color: black;
