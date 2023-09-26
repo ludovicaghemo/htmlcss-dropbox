@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
-    <!-- Font -->
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+    <!-- Font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Stylesheet link -->
     <link rel="stylesheet" href="css/style.css">
@@ -87,32 +91,129 @@
 
     <!-- Main -->
     <Main>
-        <!-- First Section Business Plan -->
+        <!--Business Plan Section-->
         <section class="business-plan">
             <div class="narrow-container">
-                <h2><strong>Trova il piano business che fa per te</strong></h2>
+                <h2>Trova il piano business che fa per te</h2>
                 <div class="invoicing">
                     <span>Fatturazione mensile</span>
                     <span>Fatturazione annuale</span>
                 </div>
-                <div class="row">
+                <div class="row space-between">
                     <div class="business-columns">
-                        <div class="business-col">Lorem</div>
-                        <div class="business-col">Lorem</div>
-                        <div class="business-col">Lorem</div>
+                        <!-- Single Plan -->
+                        <div class="business-col">
+                            <div class="customer-type"><i class="fa-solid fa-user" style="color: #000000;"></i> Singolo</div>
+                            <div class="business-col-content">
+                                <div class="offer-name">
+                                    <h3>Professional</h3>
+                                    <p class="offer-price"><strong>€ 12.00</strong></p>
+                                    <p class="offer-conditions">/mese</p>
+                                </div>
+                                <div class="offer-details">
+                                    <p class="offer-detail"><i class="fa-solid fa-user" style="color: #000000;"></i> 1 utente</p>
+                                    <p class="offer-detail"><i class="fa-solid fa-folder" style="color: #000000;"></i> 5 TB di spazio di archiviazione sicuro</p>
+                                    <p class="offer-detail"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                </div>
+                                <a class="btn trial-30" href="">Prova gratis per 30 giorni</a>
+                                <div class="try-buy">
+                                    <span>oppure</span>
+                                    <a class="buy" href="">acquista ora</a>
+                                </div>
+                                <div class="salienti">
+                                    <h4>Punti salienti del piano</h4>
+                                    <ul>
+                                    <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                    <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Cartelle offline su dispositivi mobili</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Team Plan-->
+                        <div class="business-col">
+                            <div class="customer-type"><i class="fa-solid fa-users" style="color: #000000;"></i> Team</div>
+                            <div class="business-col-content">
+                                <div class="offer-name">
+                                    <h3>Advanced</h3>
+                                    <p class="offer-price"><strong>€ 18.00</strong></p>
+                                    <p class="offer-conditions">/utente/mese</p>
+                                </div>
+                                <div class="offer-details">
+                                    <p class="offer-detail"><i class="fa-solid fa-users" style="color: #000000;"></i> 3 o più utenti</p>
+                                    <p class="offer-detail"><i class="fa-solid fa-folder" style="color: #000000;"></i> Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                    <p class="offer-detail"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i> Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</p>
+                                </div>
+                                <a class="btn trial-30" href="">Prova gratis per 30 giorni</a>
+                                <div class="try-buy">
+                                    <span>oppure</span>
+                                    <a class="buy" href="">acquista ora</a>
+                                </div>
+                                <div class="salienti">
+                                    <h4>Punti salienti del piano</h4>
+                                    <ul>
+                                        <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
+                                        <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Cartelle offline su dispositivi mobili</li>
+                                        <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                        <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Possibilità di inserire nuovi membri del team</li>
+                                        <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Gestione dei permessi in base ai ruoli</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Enterprise Plan -->
+                        <div class="business-col">
+                            <div class="customer-type"><i class="fa-sharp fa-solid fa-building" style="color: #000000;"></i> Azienda</div>
+                            <div class="business-col-content">
+                                <div class="offer-name">
+                                    <h3>Enterprise</h3>
+                                    <p class="offer-price"><strong>Contattaci</strong></p>
+                                    <p class="offer-conditions">-</p>
+                                </div>
+                                <div class="offer-details">
+                                    <p class="offer-detail"><i class="fa-solid fa-users" style="color: #000000;"></i> 10 o più utenti</p>
+                                    <p class="offer-detail"><i class="fa-solid fa-folder" style="color: #000000;"></i> Soluzioni personalizzabili per la tua azienda</p>
+                                    <p class="offer-detail"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>
+                                </div>
+                                <a class="btn trial-30" href="">Contattaci</a>
+                                <div class="try-buy">
+                                    <span>oppure</span>
+                                    <a class="buy" href="">acquista ora</a>
+                                </div>
+                                <div class="salienti">
+                                    <h4>Punti salienti del piano</h4>
+                                    <ul>
+                                    <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Servizio assistenza 24/h</li>
+                                    <li><i class="fa-sharp fa-solid fa-check" style="color: #0061ff;"></i> Possibilità di personalizzazione totale</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- /row -->
-                <!-- Horizontal block -->
+                <!-- Enterprise contacts -->
+                
                 <div class="enterprise">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repudiandae eligendi distinctio
-                    quos nulla consequatur odit numquam veritatis amet! Natus, unde quibusdam.
+                    <div class="customer-type"><i class="fa-sharp fa-solid fa-building" style="color: #000000;"></i> Team</div>
+                    <div class="row">
+                        <div class="large-column">
+                            <div class="enterprise-content">
+                                <h3>Enterprise</h3>
+                                <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                            </div>
+                        </div>
+                        <div class="small-column">
+                            <a class="btn trial-30" href="">Contatta l'ufficio vendite</a>
+                        </div>
+                    </div>
                 </div>
                 <!-- /Horizontal block -->
             </div>
             <!-- /container -->
         </section>
-        <!-- /First Section Business Plan-->
+        <!-- /Business Plan Section-->
 
         <!-- Second Section Partner-->
         <section class="partner-section">
