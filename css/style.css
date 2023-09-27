@@ -57,10 +57,16 @@ h4 {
     font-size: .9rem;
 }
 
+h5 {
+    font-size: 1em;
+}
+
 section {
     /* debug */
     margin-top: 2rem;
 }
+
+/* SECTIONS - CONTAINER - ROW - COLUMNS */
 
 .large-container {
     width: 80%;
@@ -100,20 +106,6 @@ section {
     display: flex;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.5em 1em;
-    text-decoration: none;
-} 
-
-.btn:hover {
-    filter: brightness(1.4);
-}
-
-.btn-blue {
-    background-color: var(--btn-bg-color);
-    color: var(--btn-fnt-color);
-}
 
 .small-column {
     width: 30%;
@@ -122,6 +114,8 @@ section {
 .large-column {
     width: 70%;
 }
+
+/* MARGINS */
 
 .mb-1 {
     margin-bottom: 1rem;
@@ -143,7 +137,25 @@ section {
     margin-bottom: 4rem;
 }
 
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+} 
+
+.btn:hover {
+    filter: brightness(1.4);
+}
+
+.btn-blue {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-fnt-color);
+}
+
 /* HEADER */
+
 /* HEADER-TOP */
 
 .header-top {
@@ -182,6 +194,12 @@ nav {
     justify-content: flex-end;
     gap: 2rem;
 } 
+
+.border-hover:hover {
+    border-bottom: 1px solid black;
+}
+
+/* HERO */
 
 .hero-section {
     background-color: var(--bg-color);
@@ -307,7 +325,7 @@ li i {
 }
 
 .users {
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     font-size: 2.5rem;
 }
 
@@ -318,9 +336,9 @@ li i {
 
 .part-col {
     width: calc(100% / 3);
+    aspect-ratio: 1/1;
     /* debug */
     border: 1px dashed black;
-    /* height: 60vh; */
     background-color: pink;
 }
 
@@ -344,11 +362,13 @@ li i {
 
 .square img {
     filter: invert(1);
-    
+    justify-content: center;
+    align-items: center;    
 }
 
 .des-green {
     background-color: #a2d39b;
+    border: 15px inset #d1e9cd;
 }
 
 .arizona {
@@ -368,9 +388,13 @@ li i {
     overflow-y: auto;
     /* height: 60vh; */
     padding: 2rem;
+    
 }
 
-
+.sponsorship-text {
+    overflow-y: auto;
+    height: 160px;
+}
 
 .medium-divider {
     width: 40%;
@@ -459,10 +483,6 @@ footer {
     margin-top: 1rem; 
     text-decoration: none;
     padding-bottom: 1rem;
-}
-
-h5 {
-    font-size: 1em;
 }
 
 .footer-bottom {
