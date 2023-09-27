@@ -25,17 +25,14 @@ ul {
     list-style-type: none;
 }
 
-nav, a {
+nav a {
     text-decoration: none;
     color: inherit;
     text-align: center;
 }
 
-/* a {
-    color: inherit;
-    text-decoration: inherit;
-    text-align: inherit;
-} */
+
+/* COMMON */
 
 h1 {
     text-align: left;
@@ -46,6 +43,7 @@ h1 {
 h2 {
     text-align: left;
     font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -54,7 +52,7 @@ h3 {
 }
 
 h4 {
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
     font-size: .9rem;
 }
 
@@ -62,9 +60,6 @@ section {
     /* debug */
     margin-top: 2rem;
 }
-
-
-/* COMMON */
 
 .large-container {
     width: 80%;
@@ -183,12 +178,10 @@ nav {
     padding-top: 4rem;
 }
 
-.cancel {
-    padding: 2rem 0;
-}
-
 .arrow {
     font-size: 3rem;
+    text-decoration: none;
+    color: black;
 }
 
 /* MAIN */
@@ -200,7 +193,6 @@ nav {
 
 .invoicing {
     text-align: left;
-    padding-top: 2rem;
 }
 
 .space-between {
@@ -230,6 +222,14 @@ nav {
     padding: 2rem;
 }
 
+.business-col-content li {
+    margin-bottom: 1.5rem;
+}
+
+
+.offer-name {
+    padding: .7rem;
+}
 
 .offer-price {
     font-size: .9rem;
@@ -242,36 +242,14 @@ nav {
     padding-top: .7rem;
 }
 
-.offer-details {
-    font-size: .9rem;
+li i {
+    margin-right: .5rem;
 }
 
-.offer-detail {
-    padding-top: .7rem;
-}
-
-/* .trial-30 {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: .9rem;
-} */
-
-.try-buy {
-    padding-top: 2rem;
-    font-size: .9rem;
-}
-
-.buy {
-    color: #0061ff;
-    text-decoration: underline;
-}
-
-.buy:active {
-    color: #530db0;
-}
-
-.salienti li {
-    padding-bottom: 1rem;
+.divider {
+    width: 30%;
+    border: 1px solid var(--bd-color);
+    margin: 2rem 0;
 }
 
 .enterprise {
@@ -281,7 +259,7 @@ nav {
 
 .enterprise-content {
     padding: 2rem;
-}
+} */
 
 .large-column-60 {
     width: 60%;
