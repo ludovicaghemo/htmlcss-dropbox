@@ -58,7 +58,7 @@ h4 {
 }
 
 h5 {
-    font-size: 1em;
+    font-size: 1.4rem;
 }
 
 section {
@@ -189,6 +189,10 @@ section {
 
 .medium-divider {
     width: 40%;
+}
+
+.small-divider {
+    width: 10%;
 }
 
 /* HEADER */
@@ -470,10 +474,6 @@ footer {
     color: white;
 }
 
-/* .footer-top {
-    width: 100%;
-} */
-
 .footer-columns {
     width: 100%;
     justify-content: space-between;
@@ -489,7 +489,6 @@ footer {
 }
 
 .footer-links li a {
-    /* list-style-type: none; */
     color: white;
     margin-top: 1rem; 
     text-decoration: none;
@@ -506,6 +505,3 @@ footer {
     color: gray;
 }
 
-.small-divider {
-    width: 10%;
-}
