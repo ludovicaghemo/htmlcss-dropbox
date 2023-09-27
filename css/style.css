@@ -173,6 +173,13 @@ section {
     border: 1px solid black;
 }
 
+.btn-trial {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    margin-top: 1rem;
+}
+
 /* HR */
 
 .divider {
@@ -338,7 +345,7 @@ li i {
     font-size: 2.5rem;
 }
 
-/* PARTNERSHIP */
+/* DROPBOX PARTNERSHIPS */
 
 .part-columns {
     width: 100%;
@@ -352,8 +359,6 @@ li i {
     border: 1px dashed black;
     background-color: pink;
 }
-
-
 
 .squares {
     width: 100%;
@@ -429,6 +434,8 @@ li i {
     background-color: #ffd830;
 }
 
+/* FREE TRIAL SECTION */
+
 .free-trial {
     background-color: var(--bg-color);
     padding: 4rem 0;
@@ -439,21 +446,11 @@ li i {
     font-size: 2.5rem;
 }
 
-.btn-trial {
-    background-color: white;
-    color: black;
-    border: 1px solid white;
-    margin-top: 1rem;
-}
-
-.faq-content {
-    min-height: 420px;
-}
+/* FAQ SECTION */
 
 .faq-content ul {
     list-style-type: none;
 } 
-
 
 .question {
     display: block;
@@ -464,8 +461,12 @@ li i {
 }
 
 .question:hover .answer {
-    display: block;
+    display: inline-block;
 }
+
+
+
+/* FOOTER */
 
 footer {
     background-color: black;
