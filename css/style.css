@@ -332,10 +332,13 @@ li i {
     width: calc(60% / 2);
 }
 
+/* BUSINESS PLAN USERS SECTION */
+
 .users {
-    /* padding-bottom: 3rem; */
     font-size: 2.5rem;
 }
+
+/* PARTNERSHIP */
 
 .part-columns {
     width: 100%;
@@ -349,6 +352,8 @@ li i {
     border: 1px dashed black;
     background-color: pink;
 }
+
+
 
 .squares {
     width: 100%;
