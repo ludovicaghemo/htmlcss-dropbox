@@ -66,7 +66,7 @@ section {
     margin-top: 2rem;
 }
 
-/* SECTIONS - CONTAINER - ROW - COLUMNS */
+/* SECTIONS - CONTAINER - ROW - COLUMNS FLEX*/
 
 .large-container {
     width: 80%;
@@ -102,6 +102,10 @@ section {
     display: flex;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .row {
     display: flex;
 }
@@ -113,6 +117,15 @@ section {
 
 .large-column {
     width: 70%;
+}
+
+.large-column-60 {
+    width: 60%;
+}
+
+.small-column-40 {
+    width: 40%;
+    padding: 2rem;
 }
 
 /* MARGINS */
@@ -152,6 +165,20 @@ section {
 .btn-blue {
     background-color: var(--btn-bg-color);
     color: var(--btn-fnt-color);
+}
+
+.btn-free {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* HR */
+
+.divider {
+    width: 30%;
+    border: 1px solid var(--bd-color);
+    margin: 2rem 0;
 }
 
 /* HEADER */
@@ -216,6 +243,8 @@ nav {
 
 /* MAIN */
 
+/* BUSINESS PLAN SECTION */
+
 .business-plan {
     /* debug */
     padding-top: 2rem;
@@ -223,10 +252,7 @@ nav {
 
 .invoicing {
     text-align: left;
-}
-
-.space-between {
-    justify-content: space-between;
+    gap: .5rem;
 }
 
 .business-columns {
@@ -266,7 +292,6 @@ nav {
 }
 
 .offer-conditions {
-    font-size: .9rem;
     color: grey;
     padding-top: .7rem;
 }
@@ -275,11 +300,7 @@ li i {
     margin-right: .5rem;
 }
 
-.divider {
-    width: 30%;
-    border: 1px solid var(--bd-color);
-    margin: 2rem 0;
-}
+/* ENTERPRISE CONTACTS */
 
 .enterprise {
     margin-top: 2rem;
@@ -288,23 +309,10 @@ li i {
 
 .enterprise-content {
     padding: 2rem;
-} */
-
-.large-column-60 {
-    width: 60%;
 }
 
-.small-column-40 {
-    width: 40%;
-    padding: 2rem;
-}
+/* DROPBOX BUSINESS SECTION */
 
-.btn-free {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-}
-    
 .drop-business-h2 {
     text-align: center;
 }
