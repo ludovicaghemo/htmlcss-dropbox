@@ -53,7 +53,6 @@ h3 {
 }
 
 h4 {
-    /* padding: 2rem 0; */
     font-size: .9rem;
 }
 
@@ -62,7 +61,6 @@ h5 {
 }
 
 section {
-    /* debug */
     margin-top: 2rem;
 }
 
@@ -72,8 +70,6 @@ section {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    /* debug */
-    border: 1px solid fuchsia;
 }
 
 .hero-section .large-container {
@@ -86,16 +82,12 @@ section {
     width: 60%;
     margin: 0 auto;
     max-width: 1000px;
-    /* debug */
-    border: 1px solid black;
     padding: 2rem;
 }
 
 .big-container {
     width: 100%;
     margin: 0 auto;
-    /* debug */
-    border: 1px solid black;
 }
 
 .flex-container {
@@ -260,7 +252,6 @@ nav {
 /* BUSINESS PLAN SECTION */
 
 .business-plan {
-    /* debug */
     padding-top: 2rem;
 }
 
@@ -338,7 +329,6 @@ li i {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    /* debug */
     padding-top: 2rem;
 }
 
@@ -361,9 +351,6 @@ li i {
 
 .part-col {
     width: calc(100% / 3);
-    /* debug */
-    /* border: 1px dashed black;
-    background-color: pink; */
 }
 
 /* TEXT */
@@ -390,8 +377,6 @@ li i {
     width: calc(100% / 2);
     min-height: 300px;
     display: flex;
-    /* debug */
-    /* border: 1px dashed black; */
     padding: 4rem; 
 }
 
@@ -449,6 +434,10 @@ li i {
 
 /* FAQ SECTION */
 
+.faq-content {
+    min-height: 28.5rem;
+}
+
 .faq-content ul {
     list-style-type: none;
 } 
@@ -464,8 +453,6 @@ li i {
 .question:hover .answer {
     display: inline-block;
 }
-
-
 
 /* FOOTER */
 
@@ -496,7 +483,6 @@ footer {
 }
 
 .footer-bottom {
-    /* debug */
     min-height: 60px;
 }
 
